@@ -19,3 +19,14 @@ def get_traveler_location(traveler):
 # test_destination_index = get_traveler_location(test_traveler)
 # print(test_destination_index)
 
+# first methos : List of emty lists:
+# attractions = [[], [], [], [], []]
+
+# second method: Foor loop
+# attractions = []
+# for destination in destinations:
+#   attractions.append([])
+
+# third method using List comprehentions:
+attractions = [ [] for destination in destinations ]
+#print(attractions)
